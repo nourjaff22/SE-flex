@@ -1,0 +1,271 @@
+html{
+    font-family: Roboto;
+padding-top: 0%;}
+body {
+    height: 100%;
+    width: 100%;
+    margin-top: 0%;
+    margin-right: 0%;
+    margin-left: 0%;
+}
+
+.header{
+    background: rgba(0, 0, 0, .65) url('assets/presentation.JPG');
+    background-blend-mode: darken;
+    background-size: cover;
+    height: 100%;
+    width: auto;
+    max-width: 100%;
+    background-position: center;
+
+    position: relative;
+}
+
+.logo {
+    width: auto;
+    max-width: 100%;
+    max-height: 80px;
+
+    margin-left: 7%;
+    margin-top: 2%;
+}
+
+.empowering {
+
+    margin-left: 7%;
+    margin-top: 9%;
+
+    color: white;
+    
+    font-size: 4vw;
+    font-weight: 400;
+    line-height: 1.4;
+    font-family: 'roboto';}
+
+.youth{
+    margin-left: 7%;
+
+    color: white;
+    
+    font-size: 2vw;
+    font-weight: 400;
+    line-height: 1.4;
+    font-family: 'roboto';
+    
+}
+
+
+#button {
+    background-color: #25e200;
+    color: white;
+
+    border: none;
+    cursor: pointer;
+    font-size: 2vw;
+    font-family: 'roboto';
+    margin-left: 7%;
+    border-radius: 5%;
+    
+
+  }
+
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 7%;
+    margin-right: 7%;
+      
+        font-size: x-large;
+    
+  }
+
+  #green{  color: #0d0;}
+
+.flex-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+#art1{
+    margin-left:7%;
+    max-width: 30%;
+    max-height: 100%
+    
+}
+
+.flex-container3{
+
+        display: flex;
+        flex-wrap: wrap;
+        background-color: lightgray;
+        justify-content: start;
+    
+}
+
+.flex-container3 > div {
+
+    width: 250px;
+    margin: 10px;
+    text-align: center;
+  }
+
+.inthemedia{
+      background-color: lightgray;
+  }
+
+#media { 
+    font-family: Roboto;
+    font-size: xx-large;
+}
+
+
+.Funding {
+    display: flex;}
+.Funding > div > img{
+    width: 100%;
+    height: 100%;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+
+.line {
+    display: flex;
+}
+
+.flex-container4{
+
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    justify-content: center;
+
+}
+
+.flex-container4 > div {
+
+width: 250px;
+margin: 10px;
+text-align: center;
+}
+
+.sub {
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    font-family: Roboto;
+    font-size: large;
+}
+
+.Subscibe {
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+
+    border: none;
+    cursor: pointer;
+    font-size: 2vw;
+    font-family: 'roboto';
+    margin-left: 7%;
+    border-radius: 5%;}
+.sub-btn{
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;}
+
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    height: 20%;
+}
+
+#copyright{
+    color: white;
+}
+
+#icons{color: white;
+}
+
+a.link:link {
+    text-decoration: underline;
+  }
+  a.link:visited {
+    text-decoration: #0d0;
+    text-decoration: underline;
+    color: #0d0;
+  }
+  a.link:hover {
+    text-decoration: #0d0;
+    color: #0d0;
+  }
+  a.link:active {
+    text-decoration: underline;
+    color: #0d0;
+
+  }
+
+#link{
+    font-size: larger;
+}
+
+.global-partner{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#partners {
+    width: 100%;
+    height: 100%;
+  
+
+}
+
+#join{
+    font-size: xx-large;
+}
+
+#companies {
+    margin-top: 1%;
+    font-size: x-large;
+}
+
+#black{background-color: black;}
+
+.courses {
+    display: flex;
+    background-color: #0d0;
+    
+    align-items:center;
+    justify-content: center;
+}
+
+.courses > div {
+    max-width: 50%;}
+
+#course{
+    width: 500px;
+}
+
+#discover{
+    
+    color: white;
+    font-size: xx-large;
+    font-family: Roboto;
+}
+.course-section {
+    background-color: #0d0;
+}
+
